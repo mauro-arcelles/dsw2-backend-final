@@ -16,3 +16,4 @@ mvnw.cmd
 .springBeans
 .sts4-cache
 bin
+.idea/

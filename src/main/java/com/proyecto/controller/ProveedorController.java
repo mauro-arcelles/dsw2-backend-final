@@ -28,7 +28,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.proyecto.entidad.Proveedor;
 
 @RestController
-@RequestMapping("/rest/proveedor")
+@RequestMapping("/url/proveedor")
 @CrossOrigin(origins = AppSettings.URL_CROSS_ORIGIN)
 
 

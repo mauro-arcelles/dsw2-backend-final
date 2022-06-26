@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="45c3868f-088a-43d9-87b2-323a0450e50e" name="Changes" comment="" />
+    <list default="true" id="45c3868f-088a-43d9-87b2-323a0450e50e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dawii_2022_1_grupo_05_sabado_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dawii_2022_1_grupo_05_sabado_backend.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/controller/ProveedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/controller/ProveedorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/security/EncoderPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/security/EncoderPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +65,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Computacion/PROYECTOS/GitRepositories/DAWII/PROYECTOFINAL/dawii_2022_1_grupo_05_sabado_backend/src/main/java/com/proyecto/security",
     "show.run.dashboard.notification": "false",
@@ -67,6 +78,19 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.DawiiModeloProyectoApplication (1)">
+    <configuration name="EncoderPassword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.proyecto.security.EncoderPassword" />
+      <module name="dawii_2022_1_grupo_05_sabado_backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.proyecto.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DawiiModeloProyectoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="dawii_2022_1_grupo_05_sabado_backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.proyecto.DawiiModeloProyectoApplication" />
@@ -90,6 +114,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.DawiiModeloProyectoApplication (1)" />
+        <item itemvalue="Application.EncoderPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -104,11 +129,22 @@
       <workItem from="1655423373131" duration="62000" />
       <workItem from="1655423451240" duration="4035000" />
       <workItem from="1656276335305" duration="164000" />
-      <workItem from="1656276551755" duration="2589000" />
+      <workItem from="1656276551755" duration="6054000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
