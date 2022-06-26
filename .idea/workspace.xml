@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="45c3868f-088a-43d9-87b2-323a0450e50e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dawii_2022_1_grupo_05_sabado_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dawii_2022_1_grupo_05_sabado_backend.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_28.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/controller/ProveedorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/controller/ProveedorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proyecto/security/EncoderPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proyecto/security/EncoderPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +122,7 @@
       <workItem from="1655423373131" duration="62000" />
       <workItem from="1655423451240" duration="4035000" />
       <workItem from="1656276335305" duration="164000" />
-      <workItem from="1656276551755" duration="6054000" />
+      <workItem from="1656276551755" duration="6687000" />
     </task>
     <servers />
   </component>
