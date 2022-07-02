@@ -3,6 +3,8 @@ package com.proyecto.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.proyecto.entidad.Opcion;
@@ -16,6 +18,9 @@ public class UsuarioServiceImpl implements UsuarioService{
 
 	@Autowired
 	private UsuarioRepository repository;
+
+	@Autowired
+	private PasswordEncoder encoder;
 	
 	@Override
 	public Usuario login(Usuario bean) {
@@ -35,6 +40,14 @@ public class UsuarioServiceImpl implements UsuarioService{
 	@Override
 	public Usuario buscaPorLogin(String login) {
 		return repository.findByLogin(login);
+	}
+
+	@Override
+	public Usuario guardar(Usuario usuario) {
+		usuario.setIdUsuario(0);
+		usuario.setPassword(encoder.encode(usuario.getPassword()));
+
+		return repository.save(usuario);
 	}
 
 }
